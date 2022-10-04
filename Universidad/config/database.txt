@@ -1,0 +1,9 @@
+create DATABASE universidad;
+
+create TABLE tbl_personas(
+	id serial not NULL,
+	nombre text not null,
+	apellido text not null,
+	fechaNacimiento date not null,
+	primary key(id)
+);
