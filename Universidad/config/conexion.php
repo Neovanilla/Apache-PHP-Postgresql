@@ -3,7 +3,7 @@
 function conectar_PostgreSQL()
     {
         $host ="localhost";
-        $dbname ="Universidad";
+        $dbname ="universidad";
         $user ="postgres";
         $password ="3772826qQ"; 
         $con = null;
